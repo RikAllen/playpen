@@ -152,6 +152,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="btree.cpp" />
+    <ClCompile Include="city.cpp" />
+    <ClCompile Include="matrix_search.cpp" />
+    <ClCompile Include="sort.cpp" />
+    <ClCompile Include="test_grid.cpp" />
+    <ClCompile Include="test_list.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

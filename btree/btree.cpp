@@ -5,6 +5,12 @@
 #include <functional>
 #include <assert.h>
 
+void test_city();
+void test_matrix();
+void test_grid();
+void test_list();
+void test_sort();
+
 template <class T>
 class Tree {
 public:
@@ -214,8 +220,15 @@ void test_btree()
 	printf("Done empty\n");
 }
 
+
 int main()
 {
-	test_itoa();
-	test_btree();
+	test_sort();
+	test_list();
+	test_city();
+	test_matrix();
+	test_grid();
+//	test_itoa();
+//	test_btree();
+//	test_city();
 }
